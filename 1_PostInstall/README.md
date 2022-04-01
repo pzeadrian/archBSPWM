@@ -71,7 +71,5 @@ thinking about desktop environments is installing **[Xorg](https://wiki.archlinu
 sudo pacman -S xorg
 ```
 
-Now you are ready to start creating your DE.
-Check at those:
-- [i3 Window Manager](https://github.com/pzeadrian/ArchLinuxConfigs/tree/main/i3wm)
-- [bspwm](https://github.com/pzeadrian/ArchLinuxConfigs/tree/main/bspwm)
+Now you are ready to continue configuring your Arch Installation by installing a Desktop Environment or a Window Manager. I personally recommend you to check at this WM:
+- [bspwm](https://github.com/pzeadrian/dotfilesArch/tree/main/2_DesktopGUI)
