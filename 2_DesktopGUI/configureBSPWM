@@ -1,0 +1,7 @@
+#! /bin/bash
+
+cp -R bspwm/bspwm/ $HOME/.config/
+cp -R bspwm/polybar/ $HOME/.config/
+cp -R bspwm/sxhkd/ $HOME/.config/
+cp -R alacritty $HOME/.config/
+#cp -R picom $HOME/.config
