@@ -26,14 +26,14 @@ chsh
 
 Also, you will need to install an AUR helper, I recommend [YAY](https://github.com/Jguer/yay), and then using it, install:
 ```bash
-yay -S polybar
+pikaur -S polybar
 ```
 
 For copying my config, you should do:
 ```bash
 mkdir Documents
 mkdir .config
-git clone https://github.com/pzeadrian/ArchLinuxConfigs
-cd Documents/ArchLinuxConfigs
+git clone https://github.com/pzeadrian/dotfilesArch
+cd Documents/dotfilesArch/2_DesktopGUI
 ./configureBSPWM
 ```
