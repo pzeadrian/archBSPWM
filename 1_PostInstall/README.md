@@ -1,5 +1,7 @@
 # Arch installation
 
+Continuing the process ended in the Arch Install Guide, I recommend you to accomplish the steps below
+
 ```bash
 pacman -S networkmanager
 systemctl enable NetworkManager
