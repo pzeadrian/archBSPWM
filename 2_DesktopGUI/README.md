@@ -37,3 +37,9 @@ git clone https://github.com/pzeadrian/dotfilesArch
 cd Documents/dotfilesArch/2_DesktopGUI
 ./configureBSPWM
 ```
+
+The polybar installation will install another Window Manager called i3 by default. For remove it:
+```bash
+sudo pacman -Rns i3-wm
+sudo pacman -Sc
+```
