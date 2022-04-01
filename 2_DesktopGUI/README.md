@@ -16,7 +16,12 @@ You could try:
 
 Now, let's go, first, you would need some deendencies.
 ```bash
-sudo pacman -S bspwm sxhkd alacritty dmenu feh picom git --noconfirm
+sudo pacman -S bspwm sxhkd alacritty dmenu feh picom git zsh --noconfirm
+```
+
+Now change your shell to /bin/zsh:
+```bash
+chsh
 ```
 
 Also, you will need to install an AUR helper, I recommend [YAY](https://github.com/Jguer/yay), and then using it, install:
