@@ -114,3 +114,19 @@ default theme:
 sudo pacman -S kvantum-qt5
 echo "export QT_STYLE_OVERRIDE=kvantum" >> ~/.profile
 ```
+# Images
+
+Personally, I like [Viewnior](https://github.com/hellosiyan/Viewnior), because of its elegancy and simplicity:
+
+```bash
+sudo pacman -S viewnior
+```
+
+# Video and audio
+
+You should give a try to 
+[vlc](https://wiki.archlinux.org/index.php/VLC_media_player_(Espa%C3%B1ol))
+
+```bash
+sudo pacman -S vlc
+```
