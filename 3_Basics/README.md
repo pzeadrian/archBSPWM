@@ -1,4 +1,4 @@
-# Removable Media
+## Removable Media
 For get the computer recognizing USB, Android phones and even NTFS disks, I recommend:
 ```bash
 sudo pacman -S udiskie
@@ -6,7 +6,7 @@ sudo pacman -S mtpfs gvfs-mtp gvfs-gphoto2 usb-utils
 pikaur -S jmtpfs
 ```
 
-# Touchpad
+## Touchpad
 If you are using a laptop, I recommend you to do this for have all gestures working correctly.
 ```bash
 sudo pacman -S xf86-input-libinput
@@ -26,7 +26,7 @@ EndSection
 
 Now log out or reboot your laptop.
 
-# Audio
+## Audio
 For this, I recommend you to use pulseaudio, so you have to install two packages.
 ```bash
 # Pulseaudio
@@ -35,7 +35,7 @@ sudo pacman -S pulseaudio
 sudo pacman -S pavucontrol
 ```
 
-# Bluetooth
+## Bluetooth
 Three steps to configure bluetooth
 - Step 1: Install utilities
 - Step 2: Enable Bluetooth service
@@ -79,7 +79,7 @@ If you already installed pulseaudio, you can do something for see bluetooth volu
 sudo pacman -S pulseaudio-bluetooth
 reboot
 ```
-# Trash
+## Trash
 
 If you don't want to *rm* all the time and potentially lose files, you need a
 trashing system. Luckily, that's pretty easy to do, using
@@ -101,10 +101,10 @@ line you can use:
 ```bash
 ls ~/.local/share/Trash/files
 ```
-# GTK Theming
+## GTK Theming
 For GTK themes, I recommend you to use lxappearance
 
-# Qt Theming
+## Qt Theming
 
 GTK themes will not be applied to Qt programs, but you can use
 [**Kvantum**](https://archlinux.org/packages/?name=kvantum-qt5) to change the
@@ -114,7 +114,7 @@ default theme:
 sudo pacman -S kvantum-qt5
 echo "export QT_STYLE_OVERRIDE=kvantum" >> ~/.profile
 ```
-# Images
+## Images
 
 Personally, I like [Viewnior](https://github.com/hellosiyan/Viewnior), because of its elegancy and simplicity:
 
@@ -122,7 +122,7 @@ Personally, I like [Viewnior](https://github.com/hellosiyan/Viewnior), because o
 sudo pacman -S viewnior
 ```
 
-# Video and audio
+## Video and audio
 
 You should give a try to 
 [vlc](https://wiki.archlinux.org/index.php/VLC_media_player_(Espa%C3%B1ol))
@@ -130,3 +130,5 @@ You should give a try to
 ```bash
 sudo pacman -S vlc
 ```
+## Network
+For managing networks, I use [Network Manager](https://wiki.archlinux.org/title/NetworkManager) with the terminal command nmcli
