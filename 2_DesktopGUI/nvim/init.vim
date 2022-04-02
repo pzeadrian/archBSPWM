@@ -1,11 +1,11 @@
 "--> SETTINGS"
-source $HOME/.config/nvim/configs/settings.vim
+source $HOME/.config/nvim/configs/general/settings.vim
 
 "--> PLUGINS"
 source $HOME/.config/nvim/configs/plugins.vim
 
 "--> REMAPS OF KEYS
-source $HOME/.config/nvim/configs/keys.vim
+source $HOME/.config/nvim/configs/general/keys.vim
 
 "--> PLUGINS CONFIGURATION
 source $HOME/.config/nvim/configs/plugins-conf.vim
