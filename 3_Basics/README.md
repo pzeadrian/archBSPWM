@@ -79,13 +79,27 @@ If you already installed pulseaudio, you can do something for see bluetooth volu
 sudo pacman -S pulseaudio-bluetooth
 reboot
 ```
+
+## File Managing
+### - GUI
+I recommend you to use [pcmanfm](https://github.com/lxde/pcmanfm) for have a GUI and [File-Roller](https://github.com/GNOME/file-roller) for managing compressed files in pcmanfm
+```bash
+sudo pacman -S pcmanfm file-roller
+```
+
+### - Terminal
+Give a try to [ranger](https://github.com/ranger/ranger)
+```bash
+sudo pacman -S ranger
+```
+
 ## Trash
 
 If you don't want to *rm* all the time and potentially lose files, you need a
 trashing system. Luckily, that's pretty easy to do, using
 [some of these tools](https://wiki.archlinux.org/index.php/Trash_management#Trash_creation)
 such as **[glib2](https://www.archlinux.org/packages/core/x86_64/glib2/)**,
-and for GUIs like *thunar* you need **[gvfs](https://www.archlinux.org/packages/extra/x86_64/gvfs/)**:
+and for GUIs like *pcmanfm* you need **[gvfs](https://www.archlinux.org/packages/extra/x86_64/gvfs/)**:
 
 ```bash
 sudo pacman -S glib2 gvfs
