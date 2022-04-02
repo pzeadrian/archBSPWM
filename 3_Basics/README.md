@@ -115,8 +115,12 @@ line you can use:
 ```bash
 ls ~/.local/share/Trash/files
 ```
+
 ## GTK Theming
-For GTK themes, I recommend you to use lxappearance
+For GTK themes, I recommend you to use [lxappearance](https://github.com/lxde/lxappearance)
+```bash
+sudo pacman -S lxappearance
+```
 
 ## Qt Theming
 
@@ -128,6 +132,7 @@ default theme:
 sudo pacman -S kvantum-qt5
 echo "export QT_STYLE_OVERRIDE=kvantum" >> ~/.profile
 ```
+
 ## Images
 
 Personally, I like [Viewnior](https://github.com/hellosiyan/Viewnior), because of its elegancy and simplicity:
@@ -144,5 +149,6 @@ You should give a try to
 ```bash
 sudo pacman -S vlc
 ```
+
 ## Network
 For managing networks, I use [Network Manager](https://wiki.archlinux.org/title/NetworkManager) with the terminal command nmcli
