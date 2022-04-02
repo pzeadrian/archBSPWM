@@ -109,7 +109,7 @@ gio trash path/to/file
 gio trash --empty
 ```
 
-With *thunar* you can open the trash clicking on the left panel, but on the command
+With *pcmanfm* you can open the trash clicking on the left panel, but on the command
 line you can use:
 
 ```bash
