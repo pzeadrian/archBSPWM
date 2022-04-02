@@ -104,7 +104,7 @@ ls ~/.local/share/Trash/files
 # GTK Theming
 For GTK themes, I recommend you tu use lxappearance
 
-## Qt
+# Qt Theming
 
 GTK themes will not be applied to Qt programs, but you can use
 [**Kvantum**](https://archlinux.org/packages/?name=kvantum-qt5) to change the
