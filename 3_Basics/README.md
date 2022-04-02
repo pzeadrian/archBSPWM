@@ -101,3 +101,16 @@ line you can use:
 ```bash
 ls ~/.local/share/Trash/files
 ```
+# GTK Theming
+For GTK themes, I recommend you tu use lxappearance
+
+## Qt
+
+GTK themes will not be applied to Qt programs, but you can use
+[**Kvantum**](https://archlinux.org/packages/?name=kvantum-qt5) to change the
+default theme:
+
+```bash
+sudo pacman -S kvantum-qt5
+echo "export QT_STYLE_OVERRIDE=kvantum" >> ~/.profile
+```
