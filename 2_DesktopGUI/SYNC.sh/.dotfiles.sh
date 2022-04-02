@@ -16,5 +16,5 @@ git add -A
 git commit -m "Updating configs"
 git push
 cd
-echo "Executing neovim sync"
+echo "--> Executing neovim sync"
 ./.neovim.sh
