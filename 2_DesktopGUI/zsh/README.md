@@ -7,3 +7,5 @@ sudo touch /etc/zprofile
 sudo ln -s $HOME/.config/zsh/zshrc ~/.zshrc
 sudo ln -s $HOME/.config/zsh/zprofile ~/.zprofile
 ```
+
+PD: Install bat and exa...
