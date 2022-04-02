@@ -8,6 +8,8 @@ cp -R $HOME/.config/sxhkd $HOME/Documents/dotfilesLinux/2_DesktopGUI
 cp -R $HOME/.config/X11 $HOME/Documents/dotfilesLinux/2_DesktopGUI
 cp -R $HOME/.config/zsh $HOME/Documents/dotfilesLinux/2_DesktopGUI
 cp -R $HOME/.config/ranger $HOME/Documents/dotfilesLinux/2_DesktopGUI
+cp $HOME/.dotfiles.sh $HOME/Documents/dotfilesLinux/2_DesktopGUI/SYNC.sh
+cp $HOME/.neovim.sh $HOME/Documents/dotfilesLinux/2_DesktopGUI/SYNC.sh
 
 cd $HOME/Documents/dotfilesLinux
 git add -A
