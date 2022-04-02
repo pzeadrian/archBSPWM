@@ -102,7 +102,7 @@ line you can use:
 ls ~/.local/share/Trash/files
 ```
 # GTK Theming
-For GTK themes, I recommend you tu use lxappearance
+For GTK themes, I recommend you to use lxappearance
 
 # Qt Theming
 
