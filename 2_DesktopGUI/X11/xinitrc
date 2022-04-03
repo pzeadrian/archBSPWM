@@ -1,2 +1,6 @@
+# DE
 sxhkd &
 exec bspwm
+
+# Compositor for animations
+picom &
