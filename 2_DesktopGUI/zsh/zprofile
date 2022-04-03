@@ -3,3 +3,6 @@ if [[ "$(tty)" = "/dev/tty1"  ]]; then
 fi
 
 # eval "$(gh completion -s zsh)"
+
+
+

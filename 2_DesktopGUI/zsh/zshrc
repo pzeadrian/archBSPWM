@@ -105,3 +105,8 @@ alias cat='bat --style=plain --paging=never'
 alias ls='exa --group-directories-first'
 alias tree='exa -T'
 alias la='exa -la'
+
+# Some variables by default
+export QT_STYLE_OVERRIDE=kvantum
+export MOZ_DISABLE_RDD_SANDBOX=1
+export MOZ_X11_EGL=1
