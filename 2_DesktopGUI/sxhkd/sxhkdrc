@@ -11,8 +11,13 @@ super + @space
 	rofi -show drun
 #dmenu_run -fn "Terminus-12" -sb "#88c0d0" -sf "#2e3440" -nb "#2e3440"
 
+# Tab Switcher
 alt + Tab
 	rofi -show windowcd
+
+# File Manager
+super + e
+	alacritty -e ranger
 
 # make sxhkd reload its configuration files:
 super + Escape
