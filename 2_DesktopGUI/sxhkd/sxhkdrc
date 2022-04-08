@@ -3,8 +3,12 @@
 #
 
 # terminal emulator
+# super + Return
+#	alacritty
+
+# terminal emulator in GNOME
 super + Return
-	alacritty
+	gnome-terminal
 
 # program launcher
 super + @space
@@ -16,8 +20,12 @@ alt + Tab
 	rofi -show windowcd
 
 # File Manager
+# super + e
+#	alacritty -e ranger
+
+# File Manager in GNOME
 super + e
-	alacritty -e ranger
+	gnome-terminal -e ranger
 
 # make sxhkd reload its configuration files:
 super + Escape
