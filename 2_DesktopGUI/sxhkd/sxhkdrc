@@ -33,11 +33,11 @@ super + Escape
 
 # volume control --> alsa mixer / Distros with gnome
 XF86AudioRaiseVolume
-	amixer set Master 2%+
+	amixer sset Master 3%+
 XF86AudioLowerVolume
-	amixer set Master 2%-
+	amixer sset Master 3%-
 XF86AudioMute
-	amixer set Master toggle
+	amixer sset Master toggle
 
 # volume control --> pulseaudio
 # XF86AudioRaiseVolume
