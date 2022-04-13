@@ -12,8 +12,8 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show drun
-#dmenu_run -fn "Terminus-12" -sb "#88c0d0" -sf "#2e3440" -nb "#2e3440"
+#rofi -show drun
+	dmenu_run -fn "Ubuntu-12" -sb "#88c0d0" -sf "#2e3440" -nb "#2e3440"
 
 # Tab Switcher
 alt + Tab

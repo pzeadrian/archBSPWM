@@ -105,6 +105,7 @@ alias cat='bat --style=plain --paging=never'
 alias ls='exa --group-directories-first'
 alias tree='exa -T'
 alias la='exa -la'
+alias chrome='google-chrome --use-gl=desktop --enable-features=VaapiVideoDecoder --disable-features=UseChromeOSDirectVideoDecoder &'
 
 # Some variables by default
 export QT_STYLE_OVERRIDE=kvantum
