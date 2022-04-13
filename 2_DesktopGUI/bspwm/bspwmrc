@@ -2,8 +2,8 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor eDP -d 1 2 3 4 5
-bspc monitor HDMI-1 -d 6 7 8 9 10
+bspc monitor eDP -d     
+bspc monitor HDMI-1 -d     
 bspc monitor eDP-1 --swap HDMI-1
 
 bspc config border_width         1
